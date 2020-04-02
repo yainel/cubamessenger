@@ -1,0 +1,267 @@
+/*General Styles BEGIN*/
+
+a {
+  color: #095A9D !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+ .a-divider {
+  color: #095A9D;
+ }
+/*General Styles END*/
+
+header {
+  padding-top: 60px !important;
+}
+
+  header .dropdown-toggle::after {
+    content: none;
+  }
+.px-8 {
+  padding-left:2.2rem !important;
+  padding-right:2.2rem !important;
+}
+.navbar-brand img {
+  height: 50px;
+}
+
+/*Promo Section BEGIN*/
+.promo {
+  background-color: #095A9D;
+  text-align: center;
+  color: white;
+  border-bottom: 3px solid #000;
+}
+.btn-cm-primary {
+  color: white !important;
+  border-color: #ffffffa6;
+  background-color: #14253f;
+  border-radius: 12px;
+  padding-bottom: 10px;
+}
+/*Promo Section END*/
+
+/*Advertising Section BEGIN*/
+.advertising {
+  background-image: url(../images/background01-fade.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+  .advertising .smartphones {
+    height: 420px;
+  }
+  .advertising h2, .advertising p {
+    color: white;
+  }
+ 
+  .advertising .list-group-item {
+    border: none;
+    background-color: #fff0;
+  }
+  /*Advertising Section END*/
+
+  .spanlight {
+    color: #ffff00;
+  }
+  .spanwarm {
+    color: #ff8484;
+  }
+.ourservices .messages-slider,
+.ourservices .calls-slider,
+.ourservices .refill-slider
+{
+  color: #fff;
+}
+.ourservices h3{
+  color: #064273;
+}
+.ourservices img, .ourservices i {
+  cursor: pointer;
+}
+#dropdownMenuLink {
+  color: #fff !important;
+  background-color: #095a9d;
+}
+.main-dropdown-menu {
+  color: #fff !important;
+  background-color: #095a9d;
+}
+.main-dropdown-menu a {
+  color: #fff !important;
+  text-align: center;
+  padding: 6px 0;
+}
+.main-dropdown-menu hr {
+  color: #fff !important;
+  background-color: #fff !important;
+}
+.main-dropdown-menu a:hover {
+  color: #fff !important;
+  background-color: #095a9d;
+  text-decoration: underline;
+}
+.carousel-icon-control .img-selected {
+  display: none;
+}
+.carousel-icon-control.active .img-selected {
+  display: inline;
+}
+.carousel-left-control,
+.carousel-right-control {
+  color: #095a9d;
+  font-weight: lighter;
+}
+.ourservices {
+  padding-top: 30px;
+}
+.ourservices .refill-slider{
+  color: #fff;
+}
+.fa-rounded-bordered {
+  margin-top: 0.9em !important;
+  color: #fff0;
+  font-size: 12px !important;
+  padding-top: 5px;
+}
+.fa-rounded-bordered::before {
+  border: solid 1px #ffff00;
+  border-radius: 100%;
+  padding-left: 2px;
+}
+.app-group img {
+  max-height: 70px;
+}
+.promovideo {
+  background-color: #021321;
+  border-bottom: 10px solid #666;
+}
+.promovideo p {
+  color: #fff;
+}
+.promovideo img {
+  max-height: 250px;
+}
+.promovideo h2, .promovideo h5 {
+  color: #fff;
+}
+
+.contactus {
+  padding: 70px 0;
+}
+.contactus h3 {
+  color: #294977 !important;
+}
+.download {
+  background-color: #064273;
+  padding: 40px 0;
+  color: #f9ffff;
+}
+.download img {
+  max-height: 120px;
+}
+.links {
+  color: #064273;
+  padding: 120px 0;
+}
+.links a {
+  text-decoration: underline;
+}
+.refill-slider, .messages-slider, .calls-slider {
+  background-color: #095a9d;
+  height: 22rem;
+}
+
+footer {
+  color: #064273;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .promo .spanlight {
+    font-size: 30px;
+  }
+  .promo .spandefault {
+    font-size: 1rem;
+  }
+  .app-group img {
+    text-align: center;
+    padding-left: 2.8em !important;
+    padding-bottom: 1em;
+    max-height: 80px;
+  }
+  .advertising {
+    padding-top: 20px;
+  }
+  .advertising h2, .advertising .spanlight {
+    font-size: 1rem;
+  }
+  p {
+    font-size: .8rem;
+  }
+  .promovideo {
+    border-bottom: none;
+  }
+  .promovideo h2 {
+    font-size: 1.8rem;
+  }
+  .promovideo h5 {
+    font-size: .8rem;
+  }
+  .promovideo-morevideos {
+    min-height: 10px;
+  }
+  .fa-rounded-bordered {
+    margin-top: 0 !important;
+  }
+  .contactus h5 {
+    font-size: 1rem;
+  }
+  .download h5 {
+    font-size: 1rem;
+  }
+  .links a {
+    font-size: 1.2rem !important;
+  }
+  .download img {
+    max-height: 80px;
+  }
+  .links {
+    padding: 60px 0;
+  }
+  .contactus {
+    padding: 40px 0;
+  }
+  header {
+    padding-top: 20px !important;
+  }
+  .refill-slider, .messages-slider, .calls-slider {
+    height: 380px;
+  }
+  .refill-slider h4 {
+    font-size: 1.3rem;
+  }
+  .refill-slider img {
+    height: 90px;
+  }
+  .calls-slider h2 {
+    font-size: 1.4rem;
+    padding: 40px 0;
+
+  }
+  .calls-slider img {
+    height: 70px;
+  }
+  .messages-icons {
+    padding: 20px 0 !important;
+  }
+  .carousel-icon-control {
+    display: none;
+  }
+  .carousel-icon-control.active {
+    display: inline;
+  }
+}
+
