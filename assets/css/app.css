@@ -103,11 +103,14 @@ header {
   background-color: #095a9d;
   text-decoration: underline;
 }
-.carousel-icon-control .img-selected {
+.carousel-icon-control:not(.active) .img-selected {
   display: none;
 }
-.carousel-icon-control.active .img-selected {
+.carousel-icon-control .img-selected {
   display: inline;
+}
+.carousel-icon-control.active .img-no-selected {
+  display: none;
 }
 .carousel-left-control,
 .carousel-right-control {
@@ -173,13 +176,25 @@ header {
   background-color: #095a9d;
   height: 22rem;
 }
+.carousel-icon-control img {
+  max-height: 160px;
+}
+
+.secondpage-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.secondpage-section h4 {
+  color: #095a9d;
+}
 
 footer {
   color: #064273;
   padding-bottom: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
   .promo .spanlight {
     font-size: 30px;
   }
@@ -249,7 +264,6 @@ footer {
   .calls-slider h2 {
     font-size: 1.4rem;
     padding: 40px 0;
-
   }
   .calls-slider img {
     height: 70px;
@@ -257,11 +271,17 @@ footer {
   .messages-icons {
     padding: 20px 0 !important;
   }
-  .carousel-icon-control {
+  .carousel-icon-control:not(.active) {
     display: none;
   }
-  .carousel-icon-control.active {
+  .carousel-icon-control .img-selected {
+    display: none;
+  }
+  .carousel-icon-control.active .img-selected {
     display: inline;
+  }
+  .carousel-icon-control.active .img-no-selected {
+    display: none;
   }
 }
 
