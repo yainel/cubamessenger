@@ -62,7 +62,7 @@ header {
  
   .advertising .list-group-item {
     border: none;
-    background-color: #fff0;
+    background-color: transparent;
   }
   /*Advertising Section END*/
 
@@ -115,6 +115,9 @@ header {
 .carousel-icon-control.active .img-no-selected {
   display: none;
 }
+.carousel-icon-control {
+  margin: 0 auto;
+}
 .carousel-left-control,
 .carousel-right-control {
   color: #095a9d;
@@ -128,7 +131,7 @@ header {
 }
 .fa-rounded-bordered {
   margin-top: 0.9em !important;
-  color: #fff0;
+  color: transparent;
   font-size: 12px !important;
   padding-top: 5px;
 }
@@ -166,7 +169,7 @@ header {
   color: #f9ffff;
 }
 .download img {
-  max-height: 120px;
+  max-height: 80px;
 }
 .links {
   color: #064273;
@@ -197,7 +200,7 @@ footer {
   padding-bottom: 40px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
   .promo .spanlight {
     font-size: 30px;
   }
@@ -206,10 +209,13 @@ footer {
   }
   .app-group img {
     text-align: center;
-    padding-left: 2.8em !important;
     padding-bottom: 1em;
     max-height: 80px;
   }
+  .app-group {
+    text-align: center;
+  }
+
   .advertising {
     padding-top: 20px;
   }
@@ -244,7 +250,7 @@ footer {
     font-size: 1.2rem !important;
   }
   .download img {
-    max-height: 80px;
+    max-height: 120px;
   }
   .links {
     padding: 60px 0;
@@ -287,4 +293,3 @@ footer {
     display: none;
   }
 }
-
